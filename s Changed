@@ -1,0 +1,26 @@
+# Docs Directory
+
+This folder contains all project documentation for Swrly / AGlancer.
+
+## Structure
+
+| Folder / File | Owner | Purpose |
+|---|---|---|
+| `scribe/` | Scribe (agent) | Live project documents: summaries, workstreams, decisions, roadmap |
+| `brand/` | Design | JSX mockups — UI sample and API schema reference |
+| `migrations/` | Forge / Engineering | Numbered SQL migration files |
+| `setup/` | Engineering | Deployment, environment, and integration setup guides |
+| `architecture/` | Atlas / Forge | Technical architecture, system design, team topology |
+| `planning/` | Team | New project playbooks, ideal flows, agent assignments |
+
+## Where Scribe writes
+
+All documents created or maintained by Scribe go into **`docs/scribe/`**.
+
+The `DOCS_PATH` environment variable controls the base path (default: `/app/docs`).
+Scribe's subfolder resolves to `$DOCS_PATH/scribe/`.
+
+## Existing root-level docs
+
+The files currently at the docs root are legacy; they will be migrated into
+the folders above as they are next updated by their owners.
